@@ -1,0 +1,43 @@
+.image {
+  width: 100px;
+  width: 180px;
+  margin-right: 200px;
+}
+.card {
+  display: flex;
+  min-width: 790px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 30px 90px 30px 90px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+
+.hws {
+  text-decoration: none;
+}
+
+.title {
+  color: rgb(84, 169, 219);
+  font-size: 20px;
+}
+span {
+  color: blue;
+  font-weight: 500;
+}
+@media screen and (max-width: 870px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 180px;
+  }
+  .image {
+    margin-right: 0;
+  }
+}

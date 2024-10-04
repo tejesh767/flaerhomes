@@ -1,0 +1,26 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inpContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+label {
+  font-size: 16px;
+  color: lightcoral;
+  font-weight: 600;
+}
+.searchInput {
+  margin-left: 10px;
+  width: 290px;
+  padding: 7px;
+}
+.no-results-container {
+  margin-top: 70px;
+  margin-left: 70px;
+}

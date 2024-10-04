@@ -1,0 +1,72 @@
+/* Write your CSS code here */
+* {
+  font-family: Roboto;
+}
+.image1 {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  text-align: center;
+}
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+.topContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardContainer {
+  border: 1px solid black;
+  width: 800px;
+  padding: 10px 40px 10px 40px;
+  margin-bottom: 40px;
+}
+.outerCard {
+  display: flex;
+  justify-content: center;
+}
+.secondPart {
+  display: flex;
+  align-items: center;
+}
+.rating1 {
+  margin-left: 120px;
+  border-width: 0;
+  padding: 7px;
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 4px;
+}
+p span {
+  color: indigo;
+  font-size: 20px;
+  font-weight: 500;
+}
+.year1 {
+  font-size: 18px;
+  color: rgb(84, 169, 219);
+}
+.byAuthor {
+  font-style: italic;
+  text-align: right;
+}
+button {
+  padding: 10px;
+  border-width: 0;
+  background-color: rgb(126, 149, 233);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+button:hover {
+  transform: scale(1.02);
+}
+.buttonContainer {
+  text-align: center;
+}
+.mainTitle {
+  color: rgb(84, 169, 219);
+}
